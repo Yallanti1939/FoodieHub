@@ -1,20 +1,38 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# FoodieHub
 
-# Run and deploy your AI Studio app
+A small, local clone of a FoodieHub-style frontend built with React + Vite. It's intended as a starting point for exploring or customizing a food ordering UI.
 
-This contains everything you need to run your app locally.
+You can also view a hosted preview in AI Studio: https://ai.studio/apps/drive/18-r6iY5lqD5AgSimf0QvHnQDpPJuTDY4
 
-View your app in AI Studio: https://ai.studio/apps/drive/18-r6iY5lqD5AgSimf0QvHnQDpPJuTDY4
+## Quick Start
 
-## Run Locally
+Prerequisites: Node.js (LTS) and npm
 
-**Prerequisites:**  Node.js
+1. Install dependencies
+   ```bash
+   npm install
+   ```
+2. (Optional) If you use AI features, open `.env.local` and set `GEMINI_API_KEY` there.
+3. Start the dev server
+   ```bash
+   npm run dev
+   ```
 
+## Useful scripts
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- `npm run dev` — Start development server
+- `npm run build` — Create production build
+- `npm run preview` — Preview the production build locally
+
+## Notes
+
+- This project is a frontend scaffold. Backend/API integration (orders, auth, payments) is left intentionally flexible so you can plug in your own services.
+- Check `package.json` for exact scripts and dependency versions.
+
+## Contributing
+
+If you'd like to improve this project, open an issue or submit a pull request. Small docs or UX improvements are always welcome.
+
+## License
+
+See `package.json` for license details.
