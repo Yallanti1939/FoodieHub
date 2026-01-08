@@ -1,0 +1,5 @@
+{
+  "name": "FoodieHub",
+  "description": "A high-fidelity food delivery application clone featuring restaurant listings, menu browsing, cart management, user profiles, and a full-featured admin dashboard with analytics.",
+  "requestFramePermissions": []
+}
