@@ -2,8 +2,6 @@
 
 A small, local clone of a FoodieHub-style frontend built with React + Vite. It's intended as a starting point for exploring or customizing a food ordering UI.
 
-You can also view a hosted preview in AI Studio: https://ai.studio/apps/drive/18-r6iY5lqD5AgSimf0QvHnQDpPJuTDY4
-
 ## Quick Start
 
 Prerequisites: Node.js (LTS) and npm
